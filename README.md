@@ -1,5 +1,5 @@
-# Project-Srhrkit
-#CNN
+#  Project-Srhrkit
+# CNN
 from tensorflow.keras.datasets import cifar10
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.models import Sequential
@@ -56,7 +56,7 @@ model.add(Flatten())
 #Layer 6 Denes Layer (Hidden Layer)
 model.add(Dense(256,activation="relu"))
 
-# Layer 7 Dense Layer (Output Layer)
+#Layer 7 Dense Layer (Output Layer)
 model.add(Dense(10, activation='softmax'))
 
 
