@@ -5,7 +5,7 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Conv2D, MaxPool2D, Flatten
 from tensorflow.keras.callbacks import EarlyStopping
- from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report
  
 (in_train, out_train), (in_test, out_test) = cifar10.load_data()
 
